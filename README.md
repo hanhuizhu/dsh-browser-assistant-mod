@@ -1,8 +1,8 @@
-# dsh-browser-assistant-mod
+# dsh-use-chrome
 
 dsh 浏览器助手的 Chrome 扩展魔改版。相对原版：**自动批准操作（无确认弹窗）、自动跟随当前标签页**。
 
-魔改版仓库：`https://github.com/hanhuizhu/dsh-browser-assistant-mod`
+魔改版仓库：`https://github.com/hanhuizhu/dsh-use-chrome`
 
 ## 一、工作原理
 
@@ -63,8 +63,8 @@ npx @deepseek-ai/dsh web                # 或最新公开版
 拉取魔改版仓库，把文件覆盖到宿主已加载的扩展目录，然后在 `chrome://extensions` 找到"dsh Browser Assistant"点**重新加载**：
 
 ```bash
-git clone https://github.com/hanhuizhu/dsh-browser-assistant-mod.git
-cd dsh-browser-assistant-mod
+git clone https://github.com/hanhuizhu/dsh-use-chrome.git
+cd dsh-use-chrome
 rsync -a --delete-after ./ ~/.dsh/browser-extension/
 ```
 
